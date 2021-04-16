@@ -1,0 +1,41 @@
+@font-face {
+  font-family: fontname;
+  src: url(/Dateien/alata-regular.ttf);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  background-color: white;
+  color: white;
+  font-family: fontname;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 2em 3em;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
