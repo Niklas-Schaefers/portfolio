@@ -35,7 +35,7 @@ ul {
 
 h2,
 h1 {
-  text-align: center;
+  place-items: center;
 }
 
 .header {
@@ -91,6 +91,5 @@ li a:hover {
 
 .leftcolumns {
   display: grid;
-  align-items: center;
-  justify-content: center;
+  place-items: center;
 }
