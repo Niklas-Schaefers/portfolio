@@ -3,9 +3,6 @@
 *:after {
   box-sizing: border-box;
 }
-body {
-  margin: 4em;
-}
 
 ul {
   padding: 0em;
