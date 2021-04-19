@@ -66,6 +66,7 @@ body {
   background-color: white;
   color: #212529;
   padding: 2em;
+  border-bottom-right-radius: 3em;
 }
 
 .container1 {
