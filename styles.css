@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  margin: 40px;
+  margin: 4em;
 }
 
 ul {
@@ -47,7 +47,7 @@ h1 {
   grid-template-columns: repeat(4, auto);
   text-align: center;
   overflow: hidden;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .a li a {
@@ -132,6 +132,7 @@ h1 {
 .footer{
   grid-column: 1/5;
   grid-row: 6;
+  font-size: 1em;
 }
 
 .footer ul {
@@ -139,7 +140,7 @@ h1 {
   grid-template-columns: repeat(3, auto);
   text-align: center;
   overflow: hidden;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .footer li a {
