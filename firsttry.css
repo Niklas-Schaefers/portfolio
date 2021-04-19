@@ -9,6 +9,8 @@ body {
   background-color: white;
   color: #212529;
   font-family: sans-serif;
+  display: grid;
+
   /* font-size: calc(0.6rem + 0.6vw); */
 }
 .content {
@@ -34,16 +36,6 @@ body {
   justify-self: center;
   align-self: center;
 }
-
-.container2 {
-  grid-row: 4;
-  grid-column: 1/3;
-  padding: 2em;
-}
-/* .container2:hover {
-  color: white;
-  background-color: #212529;
-} */
 
 .container3 {
   grid-row: 5;
@@ -123,13 +115,11 @@ body {
 
 .container1 {
   display: grid;
-  grid-template-columns: repeat(6, 15vw);
+  grid-template-columns: repeat(3, 15vw);
   align-content: left;
   grid-gap: 1em;
   margin: 0.2em;
   text-align: left;
-  grid-row: 3;
-  grid-column: 1/3;
   padding: 4em;
   color: white;
   background-color: #212529;
@@ -138,7 +128,7 @@ body {
 
 .container2 {
   display: grid;
-  grid-template-columns: repeat(6, 15vw);
+  grid-template-columns: repeat(3, 15vw);
   grid-gap: 1em;
   margin: 0;
   text-align: left;
@@ -159,7 +149,7 @@ h2 {
 }
 
 .item3 {
-  grid-column: 4/7;
+  grid-column: 4;
 }
 
 p,
