@@ -3,6 +3,9 @@
 *:after {
   box-sizing: border-box;
 }
+body {
+  margin: 0em;
+}
 
 ul {
   padding: 0em;
@@ -20,7 +23,7 @@ ul {
 .box {
   background-color: #212529;
   color: white;
-  border-radius: 2em;
+  /* border-radius: 2em; */
   padding: 1em;
   font-size: 1em;
   font-family: sans-serif;
