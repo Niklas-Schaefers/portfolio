@@ -60,6 +60,7 @@ h1 {
 }
 
 .b {
+  grid-column: 1;
   grid-row: 3;
 }
 
@@ -83,7 +84,7 @@ h1 {
 }
 
 .b1 {
-  grid-row: 5;
+  grid-row: 4;
   text-align: center;
   padding-bottom: 2.5em;
 }

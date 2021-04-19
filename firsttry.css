@@ -10,17 +10,11 @@ body {
   color: #212529;
   font-family: sans-serif;
   display: grid;
-
-  /* font-size: calc(0.6rem + 0.6vw); */
 }
 .content {
   display: grid;
   grid-column: 1;
   grid-row: 2;
-  padding-top: 3em;
-  padding-left: 3em;
-  grid-template-columns: repeat(3, auto);
-  grid-template-rows: repeat(3, auto);
 }
 
 .item-header {
@@ -52,13 +46,12 @@ body {
 
 #navbar {
   display: grid;
-  grid-template-columns: repeat(6, auto);
+  grid-template-columns: repeat(4, auto);
   position: fixed;
   list-style-type: none;
   margin: 0;
   text-align: center;
   padding: 2em 0em 2em 0em;
-  overflow: hidden;
   background-color: #212529;
   border-bottom-right-radius: 3em;
 }
@@ -72,45 +65,7 @@ body {
 #navbar li a:hover {
   background-color: white;
   color: #212529;
-  padding: 10em;
-}
-
-#skillbar {
-  display: grid;
-  grid-column: 3;
-  grid-row: 2;
-  position: right;
-  list-style-type: none;
-  text-align: right;
-  line-height: 2em;
-  background-color: #212529;
-  border-top-left-radius: 3em;
-  border-bottom-left-radius: 3em;
-  font-size: 0.8em;
-}
-
-#skillbar li a {
-  color: white;
-  text-decoration: none;
-  padding: 0.8em;
-  margin-left: 1em;
-}
-
-#skillbar li a:hover {
-  background-color: white;
-  color: #212529;
-}
-
-#skill {
-  display: grid;
-  position: absolute;
-  right: 0;
-  font-size: 1.47em;
-  margin-top: 7.3em;
-  margin-right: 3.8em;
-  color: grey;
-  z-index: 1;
-  transform: rotate(270deg);
+  padding: 2em;
 }
 
 .container1 {
