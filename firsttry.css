@@ -179,3 +179,9 @@ ul {
   background-color: white;
   color: #212529;
 }
+
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
