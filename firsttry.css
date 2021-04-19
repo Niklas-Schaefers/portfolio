@@ -13,6 +13,8 @@ body {
 }
 .content {
   display: grid;
+  grid-column: 1;
+  grid-row: 2;
   padding-top: 3em;
   padding-left: 3em;
   grid-template-columns: repeat(3, auto);
@@ -20,13 +22,10 @@ body {
 }
 
 .item-header {
-  grid-column: 1;
   grid-row: 2;
-  justify-self: right;
-  align-self: center;
-  text-align: right;
   line-height: 0.4vw;
   font-size: 2em;
+  text-align: right;
 }
 
 .item-photo {
@@ -189,10 +188,4 @@ ul {
 #contactdetails li a:hover {
   background-color: white;
   color: #212529;
-}
-
-.all-items {
-  display: grid;
-  grid-template-columns: repeat(auto);
-  grid-template-rows: repeat(3, auto);
 }
