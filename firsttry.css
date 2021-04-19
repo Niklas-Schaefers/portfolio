@@ -124,7 +124,7 @@ body {
 
 .container1 {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(6, 15vw);
   align-content: left;
   grid-gap: 1em;
   margin: 0.2em;
@@ -137,28 +137,13 @@ body {
   border-radius: 3em;
 }
 
-/* .container1:hover {
-  background-color: white;
-  color: #212529;
-} */
-
 .container2 {
   display: grid;
-  /* grid-template-columns: repeat(10, 1em); */
-  /* grid-template-columns: repeat(auto-fit, 3, 10em); */
-  align-content: left;
+  grid-template-columns: repeat(6, 15vw);
   grid-gap: 1em;
   margin: 0;
   text-align: left;
   padding: 4em;
-}
-.container2 {
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  align-content: left;
-  grid-gap: 1em;
-  margin: 1em;
-  text-align: left;
 }
 
 h2 {
@@ -175,7 +160,7 @@ h2 {
 }
 
 .item3 {
-  grid-column: 4;
+  grid-column: 4/7;
 }
 
 p,
