@@ -88,13 +88,11 @@ h1 {
   padding-bottom: 2.5em;
 }
 
-
-
 .c {
   grid-column: 5em;
   grid-row: 2;
-  background-color: white;  
-    margin: 0 auto;
+  background-color: white;
+  margin: 0 auto;
 }
 
 .d {
@@ -102,7 +100,6 @@ h1 {
   grid-row: 2 / 6;
   display: grid;
   gap: 1em;
-  grid-template-rows: subgrid
   grid-template-rows: subgrid;
 }
 
@@ -129,7 +126,7 @@ h1 {
   grid-row: 2;
 }
 
-.footer{
+.footer {
   grid-column: 1/5;
   grid-row: 6;
   font-size: 1em;
